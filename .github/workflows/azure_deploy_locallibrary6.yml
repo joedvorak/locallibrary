@@ -2,7 +2,7 @@
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 # More info on Python, GitHub Actions, and Azure App Service: https://aka.ms/python-webapps-actions
 
-name: Build and deploy Python app to Azure Web App - solar-aerator
+name: Build and deploy Python app to Azure Web App - locallibrary6
 
 on:
   push:
@@ -65,14 +65,14 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v1
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_29E718E01B634746ADDA742C84F204A0 }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_A633C61C802149748F1CE0EBE1FCB992 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_40127CE600F745D0864D731A6B1C7E42 }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_E5A303338D604648969D5EA70CB9F6D6 }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_BC326E6381A34DCF8182B1FCDCB39E41 }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_26AAFC0830164E048E471AA352FB5B15 }}
 
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
         with:
-          app-name: 'solar-aerator'
+          app-name: 'locallibrary6'
           slot-name: 'Production'
           
