@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/88a1008a-5c00-4312-b3be-c68bf48988fe/resourceGroups/Solar/providers/Microsoft.Web/sites/solar-aerator/Files/subscriptions/88a1008a-5c00-4312-b3be-c68bf48988fe/resourceGroups/appsvc_linux_centralus_basic/providers/Microsoft.Web/sites/locallibrarytest5",
+    "appService.deploySubpath": "."
+}
